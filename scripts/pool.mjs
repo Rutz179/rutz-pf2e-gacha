@@ -1,4 +1,5 @@
 import { MID, setting, sluggify } from "./util.mjs";
+import { PLUS } from "./edition.mjs";
 import { FOOD_CATALOG, foodName } from "./foods.mjs";
 
 /* ======================================================================== *
@@ -55,11 +56,13 @@ export function foodPrize(tier, key, qty = null) {
  * A "board" is what the odds and tables belong to: "forage", or a machine (= loot on it).
  */
 export const SETS = ["forage", "loot"];
-export const setOf = s => (s === "forage" ? "forage" : "loot");
+// The battle-loot set is the Plus edition's; Lite always draws from the camp forage set.
+export const setOf = s => (s === "forage" || !PLUS ? "forage" : "loot");
 export const BOARDS = ["forage", "roulette", "slot", "highlow"];
 
 /* The machines: each has its own tier odds and its own item tables (for loot). */
-export const MACHINES = ["roulette", "slot", "highlow"];
+// The 777 slot and High & Low are the Plus edition's.
+export const MACHINES = PLUS ? ["roulette", "slot", "highlow"] : ["roulette"];
 export const WEIGHT_KEY = { roulette: "weights", slot: "weightsSlot", highlow: "weightsHighLow", forage: "weightsForage" };
 export const WEIGHT_DEFAULT = { roulette: "70,18,8,3.5,0.5", slot: "76,12,7,4,1", highlow: "82,12,4.5,1.3,0.2", forage: "78,15,5.5,1.3,0.2" };
 const TABLE_KEY = { roulette: "tables", slot: "tablesSlot", highlow: "tablesHighLow", forage: "tablesForage" };

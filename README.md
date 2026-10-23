@@ -1,10 +1,23 @@
 # Rutz's PF2e Gacha
 
-밤에 쉬고 나면 주변을 뒤져 볼 기회가 생깁니다. 판정에 성공하면 기계를 돌려 물건 하나를 얻습니다.
+After Rest for the Night, each character can try a check — success opens a reward machine.
 
-- **보물 룰렛** — 돌려서 멈춘 칸의 등급. 돈 내고 다시 돌리기, 돌린 것 중 하나를 고름
-- **777 슬롯** — 릴을 직접 멈추는 파치슬롯. 리치 연출, 싸게 여러 번
-- **하이 & 로우** — 첫 물건을 뽑고 다음 카드가 높을지 낮을지 맞혀 등급을 올리는 도박
-- 기계마다 확률·품목 표·판정 기술·비용이 따로, 모두 GM 설정 · PF2e 밤 휴식과 연동
+- **Treasure roulette** — spin, pay for re-spins, keep the pull you like. Camp finds: mostly food, gear and potions, rarely something special.
+- **Everyone watches** — spins play for the whole table, one at a time in a queue.
+- **Plus** — a 777 slot you stop yourself, High & Low double-up, battle loot after combat, re-spin cost tables and an item table editor.
 
-Foundry VTT v13–v14 · PF2e
+## Lite & Plus
+This is the free edition; the **Plus** features above come with a Patreon membership (same module, so worlds keep their data). During the open beta every feature is free.
+
+## Install
+Foundry → *Add-on Modules* → *Install Module* → Manifest URL:
+```
+https://github.com/Rutz179/rutz-pf2e-gacha/releases/latest/download/module.json
+```
+Foundry VTT v13–v14 · PF2e · English / 한국어
+
+The gift button in the token controls, or `game.rutzGacha.offer(actors)`.
+
+---
+
+**한국어** — 밤 휴식 뒤 판정에 성공하면 보물 룰렛. 다시 돌리기, 모두가 함께 보는 연출, 대기열. Plus: 777 슬롯, 하이 & 로우 더블업, 전투 후 전리품, 품목 표 편집.

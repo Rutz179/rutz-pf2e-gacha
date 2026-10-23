@@ -1,8 +1,8 @@
 {
   "id": "rutz-pf2e-gacha",
   "title": "Rutz's PF2e Gacha",
-  "description": "휴식 뒤 판정에 성공하면 기계를 돌려 물건을 줍습니다 — 보물 룰렛, 직접 멈추는 777 슬롯, 등급을 걸고 맞히는 하이 & 로우. 기계마다 확률·품목·판정·비용이 따로. Finds after a night's rest for PF2e: a roulette, a 777 slot you stop yourself, and High & Low.",
-  "version": "0.6.2",
+  "description": "After a night's rest in Pathfinder 2e, a Survival check opens a reward roulette of camp finds with paid re-spins; Plus adds the 777 slot, High & Low double-up, battle loot after combat and a table editor. — 휴식 후 보물 룰렛.",
+  "version": "1.7.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
@@ -41,5 +41,5 @@
   "socket": true,
   "url": "https://github.com/Rutz179/rutz-pf2e-gacha",
   "manifest": "https://github.com/Rutz179/rutz-pf2e-gacha/releases/latest/download/module.json",
-  "download": "https://github.com/Rutz179/rutz-pf2e-gacha/releases/download/v0.6.2/module.zip"
+  "download": "https://github.com/Rutz179/rutz-pf2e-gacha/releases/download/v0.7.0/module.zip"
 }
