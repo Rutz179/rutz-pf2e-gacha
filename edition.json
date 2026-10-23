@@ -1,4 +1,0 @@
-{
-  "public": "plus",
-  "plusFiles": ["scripts/slot.mjs", "scripts/highlow.mjs", "scripts/tables.mjs"]
-}
