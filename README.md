@@ -8,10 +8,10 @@ A reward machine for **Pathfinder 2e** in Foundry VTT. After Rest for the Night 
 
 ## Features
 - **Chance after rest** — PF2e's Rest for the Night posts one card for everyone who rested: a Survival check each against a level-based DC. A critical success gives a free extra spin.
-- **Treasure wheel** — five tiers from common to legendary; re-spins cost coins (scaled to level, up to 3); take any pull, or its value in coins instead.
+- **Treasure wheel** — five tiers from common to legendary; re-spins cost coins (scaled to level, up to 3); the last pull is yours, or its value in coins instead.
 - **Everyone watches** — each spin plays on every screen, one at a time, with whose turn it is. Players queue up when several have a chance.
-- **For GMs** — give a chance any time from the token controls, and set the check skill and DC.
-- The **777 slot** (stop the reels yourself), **High & Low** (double up on a real deck of cards), **battle loot** after combat, an **item table editor** for every tier, and re-spin cost and keep rules.
+- **For GMs** — give a chance any time from the token controls; every option in one **gacha manager** window (odds on one bar with sliders, the games side by side).
+- The **777 slot** (stop the reels yourself), **High & Low** (bet on the next card of a real deck), **Chinchirorin** (three dice in a bowl), **battle loot** after combat (by the treasure-by-level table), and the items of each tier to edit. Every game shares one reward table; any game can be tuned on its own.
 
 <img src="media/EN_06.png" alt="The 777 slot" height="300"> <img src="media/EN_07.png" alt="High and Low with an uncommon pot" height="300">
 
